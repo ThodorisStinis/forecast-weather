@@ -16,7 +16,6 @@ function WeeklyPrediction() {
     const nextDayName = nextDay.toLocaleDateString("en-EN", {
       weekday: "long",
     });
-    console.log(typeof ("day" + whichDay));
 
     return (
       <>

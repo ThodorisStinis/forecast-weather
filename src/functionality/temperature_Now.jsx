@@ -25,7 +25,9 @@ function TemperatureNow() {
 
   return (
     <>
-      <div className="icon-area">{ProvideIconsByCode(weatherCode)?.img}</div>
+      <div className="icon-area">
+        {ProvideIconsByCode(weatherCode, 70)?.img}
+      </div>
       <div className="celsius-area">{currentTemp} °C</div>
       <div className="wind-area">Wind Speed: {windSpeed} %</div>
     </>

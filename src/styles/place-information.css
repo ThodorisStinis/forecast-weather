@@ -15,3 +15,8 @@
 .searched-place {
   font-size: 24px;
 }
+
+.searched-place {
+  font-weight: bold;
+  font-size: 30px;
+}
