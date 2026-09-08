@@ -1,0 +1,32 @@
+.input-field {
+  font-size: 45px;
+  cursor: pointer;
+  background-color: inherit;
+  border: 3px solid rgba(26, 24, 24, 0.503);
+  border-radius: 10px;
+  padding: 10px;
+  color: inherit;
+}
+.input-field:hover {
+  cursor: pointer;
+}
+
+.search-button {
+  font-size: 52px;
+  margin-left: 5px;
+  background-color: inherit;
+  border: none;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  border: 3px solid rgba(26, 24, 24, 0.503);
+  border-radius: 10px;
+}
+
+.created-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}

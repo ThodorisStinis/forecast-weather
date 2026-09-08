@@ -1,0 +1,14 @@
+.temperature-now-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0px 15px 0;
+}
+
+.icon-area,
+.celsius-area,
+.wind-area {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 15px;
+}

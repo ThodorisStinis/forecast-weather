@@ -1,0 +1,17 @@
+.place-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0 15px 0;
+  margin-left: 15px;
+}
+
+.current-day {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.yearly-info,
+.searched-place {
+  font-size: 24px;
+}
